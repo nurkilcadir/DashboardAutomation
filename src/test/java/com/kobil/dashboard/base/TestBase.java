@@ -51,5 +51,7 @@ public class TestBase {
 	
 	}
 	
-	//quit methodunu yaz
+	public void tearDown() {
+	 driver.quit();
+	}
 }
